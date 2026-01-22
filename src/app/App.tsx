@@ -1109,7 +1109,7 @@ export default function App() {
               style={{ backgroundColor: "#FFF9E6" }}
             >
               <img
-                src="/public/capybara_keychain.png"
+                src="/capybara_keychain.png"
                 alt="Capybara Keychain Prize"
                 className="w-48 h-48 mx-auto mb-4 object-contain"
               />
