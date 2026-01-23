@@ -25,7 +25,6 @@ import {
 } from "./components/ui/radio-group";
 import { Label } from "./components/ui/label";
 import { ImageWithFallback } from "./components/figma/ImageWithFallback";
-import capybaraKeychain from "figma:asset/91aa2213cb70fe1928b427542387094684bdfcae.png";
 
 // Ngee Ann Polytechnic blue and gold colors
 const NP_BLUE = "#003D7A";
@@ -379,7 +378,7 @@ export default function App() {
           className="text-center mb-3"
           style={{ color: NP_BLUE }}
         >
-          NP History Hunt
+          Tiff & Co. Hunt
         </h1>
         <p className="text-center text-gray-600 mb-8">
           Discover the rich heritage of Ngee Ann Polytechnic
@@ -959,7 +958,7 @@ export default function App() {
               </h1>
               <p className="text-gray-600 mb-6">
                 {passed
-                  ? "You've successfully completed the NP History Hunt!"
+                  ? "You've successfully completed the Tiff & Co. Hunt!"
                   : "You've completed the hunt. Review and try again!"}
               </p>
 
@@ -1100,7 +1099,7 @@ export default function App() {
               Perfect Score! 🎉
             </h1>
             <p className="text-gray-600 mb-6">
-              You've achieved 100% on the NP History Hunt!
+              You've achieved 100% on the Tiff & Co. Hunt!
             </p>
 
             {/* Prize Image */}
@@ -1109,7 +1108,7 @@ export default function App() {
               style={{ backgroundColor: "#FFF9E6" }}
             >
               <img
-                src="/capybara_keychain.png"
+                src="/public/capybara_keychain.png"
                 alt="Capybara Keychain Prize"
                 className="w-48 h-48 mx-auto mb-4 object-contain"
               />
